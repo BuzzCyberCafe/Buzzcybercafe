@@ -1,64 +1,59 @@
 <!-- footer start here -->
-<div class="agile-footer">
+<footer class="agile-footer">
 	<div class="container">
 		<div class="footer-agileinfo">
-			<div class="col-md-4 col-sm-6 footer-wthree-grid">
-				<h6 style="color: #00bcd4">Address</h6>
-				<p>10-A,Aloukik Building,Kasturba Road,Rajkot, Gujarat 360001,India.</p>
+			<div class="footer-wthree-grid">
+				<h6>Buzz Cyber Cafe</h6>
+				<p>Your one-stop digital service centre in Rajkot for government forms, passport &amp; Aadhaar
+					services, printing and 100&nbsp;Mbps high-speed internet.</p>
 				<div>
-					<span class="glyphicon glyphicon-phone-alt" aria-hidden="true" style="color: #ff7200">
-						<span style="color: white"><span
-								style="font-family: 'times'">+</span>91-9558898855</span>
-					</span>
+					<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+					10-A, Aloukik Building, Kasturba Road, Rajkot, Gujarat 360001, India.
 				</div>
 				<div>
-
-					<span class="glyphicon glyphicon-phone-alt" aria-hidden="true" style="color: #ff7200">
-						<span style="color: white"><span
-								style="font-family: 'times'">+</span>91-9099784847</span>
-					</span>
-
+					<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+					+91-9558898855 &nbsp;|&nbsp; +91-9099784847
 				</div>
 			</div>
 
-			<div class="col-md-4 col-sm-6 footer-wthree-grid">
+			<div class="footer-wthree-grid">
 				<h3>Navigation</h3>
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li><a href="index.html">Fairs</a></li>
+					<li><a href="index.html#Services">Services</a></li>
+					<li><a href="index.html#fairs">Pricing</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
-			<div class="col-md-4 col-sm-6 footer-wthree-grid w3social">
-				<h3>Social Media</h3>
+
+			<div class="footer-wthree-grid w3social">
+				<h3>Get in touch</h3>
 				<ul>
-					<li><a href="#"><i class="fa fa-envelope"></i><b>buzzcybercafe001@gmail.com </a></b></li>
+					<li><a href="mailto:buzzcybercafe001@gmail.com"><i class="fa fa-envelope"></i> buzzcybercafe001@gmail.com</a></li>
+					<li><a href="https://wa.me/919558898855" target="_blank" rel="noopener"><i class="fa fa-whatsapp"></i> WhatsApp Chat</a></li>
 					<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
 					<li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
-					<li><a href="#"><i class="fa fa-whatsapp"></i>Whatsapp</a></li>
 				</ul>
 			</div>
-			<div class="clearfix"> </div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- //footer end here -->
-<!-- copy rights start here -->
 <div class="copyw3-agile">
 	<div class="container">
-		<p>© <span id="year"></span> Buzz. All Rights Reserved</p>
+		<p>© <span id="year"></span> Buzz Cyber Cafe. All Rights Reserved · Design by <span>Dhruvrajsinh Zala</span></p>
 	</div>
 </div>
-<!-- //copy right end here -->
-<script src="js/SmoothScroll.min.js"></script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+
+<!-- Floating WhatsApp button -->
+<a href="https://wa.me/919558898855" class="fab-wa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+	<i class="fa fa-whatsapp"></i>
+</a>
+
 <script>
-	document.getElementById("year").textContent = new Date().getFullYear();
+	(function () {
+		var y = document.getElementById("year");
+		if (y) y.textContent = new Date().getFullYear();
+	})();
 </script>
-<script src="js/bootstrap.js"></script>
-
-</body>
-
-</html>

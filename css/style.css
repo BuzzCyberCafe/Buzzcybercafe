@@ -74,7 +74,7 @@ body a:focus {
 .navbar-header h1 a {
     color: #FFFFFF;
     text-decoration: none;
-    border: 1px solid #FF7148;
+    border: 1px solid #ff7200;
     padding: .2em 0.5em;
 	display: inline-block;
 	text-transform: uppercase;
@@ -133,7 +133,7 @@ body a:focus {
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #00bcd4;
+    background-color: #06b6d4;
 }
 .w3header form {
 	margin: 1.1em 0 0;
@@ -162,7 +162,7 @@ body a:focus {
     height: 39px;
     outline: none;
     box-shadow: none;
-    background: #00BCD4;
+    background: #06b6d4;
     padding: 0;
     border-radius: inherit; 
 	-webkit-appearance: none;
@@ -171,7 +171,7 @@ body a:focus {
 	transition:.5s all;
 } 
 .w3header form:hover input[type="search"]{
-	border-color:#ca5a00;
+	border-color:#e85d00;
 }
 .w3header form:hover .btn.btn-default{
     background: #ff7200;
@@ -201,7 +201,7 @@ body a:focus {
 }
 .banner-w3text h4 {
     font-size: 2em;
-    color: #00bcd4;
+    color: #06b6d4;
     font-weight: 300;
     letter-spacing: 4px;
 }
@@ -308,7 +308,7 @@ p {
 }
 .welcome span.glyphicon {
     font-size: 2em;
-    color: #00bcd4;
+    color: #06b6d4;
     display: inline-block;
     text-decoration: none;
     -webkit-transition: .5s all;
@@ -381,7 +381,7 @@ p {
 .skills .nav-tabs > li.active > a, .skills .nav-tabs > li.active > a:hover, .skills .nav-tabs > li.active > a:focus {
     color: #038292;
     border-top-width: 3px;
-    border-top-color: #00bcd4;
+    border-top-color: #06b6d4;
     border-bottom-color: transparent;
     background: rgb(146, 232, 243);
     margin-top: -1px;
@@ -428,7 +428,7 @@ p {
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	-moz-border-radius: 2px;
-	background: #00bcd4;
+	background: #06b6d4;
 	margin-bottom: 2em;
 	-webkit-transition: width 1s;
 	transition: width 1s;
@@ -517,18 +517,18 @@ p {
     background: #ff7200;
 }
 .subscribe form:hover input[type="text"]{
-    border-color: #00bcd4;
+    border-color: #06b6d4;
 }
 .subscribe form:hover input[type="submit"] {
-    border-color: #00bcd4;
-    background:#00bcd4 ; 
+    border-color: #06b6d4;
+    background:#06b6d4 ; 
 }
 .subscribe p{
     width: 45%;
     margin: 0.5em auto 0;
 }
 .subscribe p a {
-    color: #00bcd4;
+    color: #06b6d4;
 }
 .subscribe p a:hover{
     color: #999;
@@ -548,12 +548,12 @@ p {
     color: #fff;
     text-decoration: none; 
 	display: inline-block;
-	border: 1px solid #FF7148;
+	border: 1px solid #ff7200;
     padding: .2em 0.5em;
 } 
 .footer-wthree-grid h3 {
     font-size: 2.2em;
-    color: #00bcd4;
+    color: #06b6d4;
     margin-bottom: 0.8em;
     letter-spacing: 1px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -574,7 +574,7 @@ p {
 	font-weight: 200;
 } 
 .footer-wthree-grid ul li a:hover {
-    color: #00bcd4;
+    color: #06b6d4;
 } 
 .footer-wthree-grid ul li a i.fa {
     width: 26px;
@@ -634,7 +634,7 @@ p {
     width: 17%;
     text-align: center;
     padding: 2em 1em;
-    border: 2px solid #00bcd4;
+    border: 2px solid #06b6d4;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all;
 	-o-transition:.5s all;
@@ -646,7 +646,7 @@ p {
 }
 .pince h5 {
     font-size: 2em; 
-    color: #00bcd4;
+    color: #06b6d4;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all;
 	-o-transition:.5s all;
@@ -656,7 +656,7 @@ p {
 	margin:0 ;
 }
 .pince:hover .pince-left {
-    background-color: #00bcd4; 
+    background-color: #06b6d4; 
 }
 .pince:hover h5{
 	color:#fff;
@@ -838,7 +838,7 @@ p {
     -webkit-appearance: none;
 }
 .contact-right input[type="submit"] {
-    border: 1px solid #00bcd4;
+    border: 1px solid #06b6d4;
     padding: .7em 0;
     width: 22%;
     margin-top: 0.8em;
@@ -846,7 +846,7 @@ p {
     color: #fff;
     letter-spacing: 1px;
     outline: none;
-    background-color: #00bcd4;
+    background-color: #06b6d4;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all; 
@@ -880,13 +880,13 @@ ul.simplefilter {
     margin-bottom: 2em;
 }
 .simplefilter li {
-    color: #00BCD4;
+    color: #06b6d4;
     cursor: pointer;
     display: inline-block;
     text-transform: uppercase;
     padding: 0.8em 2em;
     margin: 0 0.3em;
-    border: 1px solid #00BCD4;
+    border: 1px solid #06b6d4;
 } 
 .simplefilter li.active {
     background-color: #ff7200;
@@ -929,7 +929,7 @@ ul.simplefilter {
 }
 .wthree_single_grid ul li span {
     padding-right:0.5em;
-    color: #00bcd4;
+    color: #06b6d4;
     font-size: 1.1em;
 }
 .wthree_single_grid ul li a{
@@ -937,7 +937,7 @@ ul.simplefilter {
 	text-decoration:none;
 }
 .wthree_single_grid ul li a:hover{
-	color:#00bcd4;
+	color:#06b6d4;
 }
 .agile_single_banner{
     margin:3em auto 2em;
@@ -1004,7 +1004,7 @@ h4.w3ls-title {
 }
 .author-grid-left img {
     padding: .2em;
-    border: 2px solid #00bcd4; 
+    border: 2px solid #06b6d4; 
 }
 .author-grid-right h4 {
     font-size: 1.8em;
@@ -1013,7 +1013,7 @@ h4.w3ls-title {
 }
 .author-grid-right h4 a{
 	text-decoration:none;
-	color:#00bcd4;
+	color:#06b6d4;
 }
 .author-grid-right h4 a:hover{
 	color:#000;
@@ -1029,7 +1029,7 @@ h4.w3ls-title {
     letter-spacing: 1px;
 }
 .author-grid a.social-button {
-    color: #00bcd4;
+    color: #06b6d4;
     margin: 1em .5em 0;
     display: inline-block;
 }
@@ -1056,7 +1056,7 @@ h4.w3ls-title {
 .write-reply input[type="submit"]{
 	outline: none;
     width:100%;
-    background:#00bcd4;
+    background:#06b6d4;
     padding: 10px 0;
     border:none;
     font-size: 1em;
@@ -1127,7 +1127,7 @@ li.list-group-item1 {
 }
 .grid_5 h3, .grid_5 h2, .grid_5 h1, .grid_5 h4, .grid_5 h5, h3.w3ls-hdg, h3.bars {
 	margin-bottom: 1em;
-    color: #00bcd4;
+    color: #06b6d4;
     font-weight: bold;
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
@@ -1854,15 +1854,15 @@ h2.typoh2{
     margin: 0;
 }
 .w3header .navbar-default .navbar-toggle {
-    border-color: #0fdfe2;
-    background: #0fdfe2;
+    border-color: #06b6d4;
+    background: #06b6d4;
     margin:8px 0 0;
 }
 .w3header .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
 .w3header .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #0fdfe2;
+    background-color: #06b6d4;
 }  
 .w3header .navbar-nav > li {
     margin: 0;

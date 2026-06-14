@@ -1,75 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- Modern sticky navbar -->
+<header class="site-nav" id="siteNav">
+	<div class="site-nav__inner">
+		<a href="index.html" class="site-nav__brand">
+			<img src="images/LOGO.png" alt="Buzz Cyber Cafe logo">
+			<span>Buzz <b>Cyber Cafe</b></span>
+		</a>
 
-<head>
-	<title>Buzz Cyber Cafe</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="Focus Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){  } </script>
-	<!--fevicon-->
-	<link rel="icon" type="image/png" href="images/LOGO.png">
-	<!-- Custom Theme files -->
-	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-	<link href="css/font-awesome.css" rel="stylesheet"> <!-- font-awesome icons -->
-	<!-- //Custom Theme files -->
-	<!-- js -->
-	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="/js/bars.js"></script>
-	<!-- //js -->
-	<!-- web-fonts -->
-	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
-		rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
-	<!-- //web-fonts -->
-</head>
+		<button class="site-nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+			<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+				<line x1="3" y1="6" x2="21" y2="6"></line>
+				<line x1="3" y1="12" x2="21" y2="12"></line>
+				<line x1="3" y1="18" x2="21" y2="18"></line>
+			</svg>
+		</button>
 
-<body>
-	<!-- banner -->
-	<div class="banner-w3layouts about-banner">
-		<div class="banner-img1">
-		</div>
-		<!-- banner-info -->
-		<div class="banner-agileinfo">
-			<div class="container">
-				<div class="w3header"> <!--header-->
-					<nav class="navbar navbar-default">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse"
-								data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<img src="./images/LOGO.png" class="about-left" width="30%;">
-						</div>
-						<!-- navbar-header -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<!-- <form class="navbar-right w3ls-search" action="#" method="post">
-								<input type="search" name="Search" placeholder="Enter your text..." required="">
-								<button type="submit" class="btn btn-default" aria-label="Left Align">
-									<span class="glyphicon glyphicon-search"></span>
-								</button>
-							</form> -->
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="index.html" class="active">Home</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="index.html#Services">Services </a>
-
-								</li>
-								<li><a href="index.html#fairs">Fairs</a></li>
-								<li><a href="contact.html">Contact Us</a></li>
-							</ul>
-							<div class="clearfix"> </div>
-						</div>
-					</nav>
-				</div>
-				<!-- //header -->
-
-				<!-- //banner-info -->
-			</div>
-		</div>
-		<!-- //banner -->
+		<ul class="site-nav__links" id="navLinks">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="index.html#Services">Services</a></li>
+			<li><a href="index.html#fairs">Pricing</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="https://wa.me/919558898855" class="site-nav__cta" target="_blank" rel="noopener">
+				<i class="fa fa-whatsapp"></i> WhatsApp
+			</a></li>
+		</ul>
+	</div>
+</header>

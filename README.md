@@ -94,15 +94,3 @@ npx serve
   List in `index.html` and `services.html`.
 - **Contact details / phone numbers** — update in `header.html`, `footer.html`,
   `contact.html`, and the `wa.me/91...` links.
-
----
-
-## Contact
-
-- **Address:** 10-A, Aloukik Building, Kasturba Road, Rajkot, Gujarat 360001, India
-- **Phone:** +91-9558898855 · +91-9099784847
-- **Email:** buzzcybercafe001@gmail.com
-
----
-
-*Design by Dhruvrajsinh Zala.*
